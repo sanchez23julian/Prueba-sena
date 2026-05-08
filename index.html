@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Cronograma Deportivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+     <img src="logo cronodeportivo.png" width="150"/>
+    <div class="header">
+        <div class="logo-placeholder">Editar perfil o creación de perfil</div>
+    </div>
+
+    <div class="profile-pic-container">
+        <div class="profile-pic">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </div>
+        <button class="btn-blue" id="btnFoto">Foto de perfil</button>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Nombres:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Apellidos:</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Contraseña:</label>
+            <input type="password" value="********">
+        </div>
+
+        <div class="form-group">
+            <label>Confirmar contraseña:</label>
+            <input type="password" value="********">
+        </div>
+
+        <div class="form-group">
+            <label>Correo electrónico:</label>
+            <input type="email">
+        </div>
+
+        <div class="form-group">
+            <label>Teléfono:</label>
+            <input type="tel">
+        </div>
+
+        <div class="checkbox-group">
+            <p>Deporte que practica:</p>
+            <label class="checkbox-item"><input type="checkbox"> Atletismo</label>
+            <label class="checkbox-item"><input type="checkbox"> Fútbol</label>
+            <label class="checkbox-item"><input type="checkbox" checked> Ciclismo</label>
+            <label class="checkbox-item"><input type="checkbox"> Baloncesto</label>
+        </div>
+
+        <div class="checkbox-group">
+            <p>Aplicación o wearable de entrenamiento:</p>
+            <label class="checkbox-item"><input type="checkbox"> Garmin</label>
+            <label class="checkbox-item"><input type="checkbox"> Apple watch</label>
+            <label class="checkbox-item"><input type="checkbox" checked> TrainingPeaks</label>
+            <label class="checkbox-item"><input type="checkbox"> Wahoo</label>
+        </div>
+
+        <div class="save-btn-container">
+            <button type="submit" class="btn-save">Guardar</button>
+        </div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
